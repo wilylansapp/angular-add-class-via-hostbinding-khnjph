@@ -1,0 +1,21 @@
+/* Directly class apply via hostbinding from this component, so must add the class inside the host tag */
+:host(.color) {
+  color: palevioletred;
+}
+
+:host(.background) {
+  background-color: black;
+}
+
+/* Added class dynamically by the directive, so not necessary to add the class inside the host tag */
+.btn {
+  color: palevioletred;
+  background-color: black;
+  border-radius: 2px;
+  border: 2px solid palevioletred;
+  cursor: pointer;
+}
+
+.ground {
+  color: blue;
+}
