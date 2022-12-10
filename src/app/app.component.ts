@@ -136,7 +136,7 @@ export class AppComponent implements OnInit {
         elStyle.innerHTML +=
           ' .' +
           className +
-          " { background-image: url('assets/ecussons/" +
+          " { background-image: url('/assets/ecussons/" +
           imgName +
           ".jpg');} ";
       } else {
@@ -144,7 +144,7 @@ export class AppComponent implements OnInit {
         style.innerHTML =
           '.' +
           className +
-          " { background-image: url('assets/ecussons/" +
+          " { background-image: url('/assets/ecussons/" +
           imgName +
           ".jpg');} ";
         document.getElementsByTagName('head')[0].appendChild(style);
